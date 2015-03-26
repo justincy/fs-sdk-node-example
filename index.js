@@ -7,7 +7,6 @@ var http = require('http'),
 http.createServer(function(req, res){
 
     var requestUrl = url.parse(req.url, true);
-    console.log(requestUrl);
     if(requestUrl.query && requestUrl.query.access_token && requestUrl.query.app_key){
         var fs = new FamilySearch({
             app_key: requestUrl.query.app_key,
@@ -16,14 +15,14 @@ http.createServer(function(req, res){
             http_function: request,
             deferred_function: q.defer
         });
-        
+
         fs.getCurrentUser().then(function(userResponse){
             res.writeHead(200);
-            res.write(userResponse.getUser().contactname);
+            res.write(userResponse.getUser().contactName);
             res.end();
         }, function(error){
             res.writeHead(500);
-            res.write(error);
+            res.write(JSON.stringify(error));
             res.end();
         });
     }
