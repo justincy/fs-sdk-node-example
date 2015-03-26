@@ -1,0 +1,11 @@
+{
+  "name": "fs-sdk-node-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.2.0",
+    "request": "^2.54.0",
+    "familysearch-javascript-sdk": "rootsdev/familysearch-javascript-sdk#f3bcd3b382"
+  }
+}
