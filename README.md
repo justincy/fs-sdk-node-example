@@ -1,18 +1,3 @@
+Example of using the [FamilySearch JavaScript SDK](https://github.com/rootsdev/familysearch-javascript-sdk) in node.js
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+Run the server with `node index.js`.
